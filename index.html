@@ -3,57 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Fields</title>
+    <title>Mohithram - Web Developer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            
+        }
+        header {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        h1, h2 {
+            color: #007BFF;
+        }
+        .projects a {
+            display: block;
+            margin: 5px 0;
+            color: #007BFF;
+            text-decoration: none;
+        }
+        footer {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+            border-top: 1px solid #ddd;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <h1>Mohithram</h1>
+        <p>Passionate Web Developer</p>
+    </header>
     
-    <h3>Inline Elements</h3>
-    <span>Front End</span>
-    <strong>HTML</strong>
-    <i>CSS</i>
-    <p>Welcome</p>
-    <span>JavaScript</span>
-    <div>Angular</div>
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>Hi, I'm Mohithram, Seeking a challenging role in an established organisation where I can expand my knowledge, learn new skills, and leverage my learnings.</p>
+    </section>
 
-    <form>
-        <div>
-            <label for="">Name</label>
-            <input type="text" name="firstname" id="firstname">
-        </div>
-        <div>
-            <label for="">Email</label>
-            <input type="email" name="email" id="email">
-        </div>
+    <section id="education">
+        <h2>Education</h2>
+        <h3>Bachelor of Engineering in Mechanical Engineering</h3>
+        <p>K. Ramakrishnan College of
+            Engineering, Trichy</p>
+        <p>2021 - 2024</p>
+        <p>Marks Scored: 75.4%</p>
 
-        <div>
-            <label for="">DOB</label>
-            <input type="date" name="" id="">
-        </div>
+        <h3>Diploma in Mechanical Engineering</h3>
+        <p>M.A.M College of engineering Trichy</p>
+        <p>2017 - 2020</p>
+        <p>Marks Scored: 73%</p>
 
-        <div>
-            <label for="">Phone No:</label>
-            <input type="tel" name="phone" id="phone">
-        </div>
+        <h3>SSLC</h3>
+        <p>Chinmaya Vidyalaya Trichy
+        </p>
+        <p>2016 - 2017</p>
+        <p>Marks Scored: 51%</p>
+    </section>
 
-        <div>
-            <label for="">City</label>
-            <select name="city">
-                <option value="">Chennai</option>
-                <option value="">Madurai</option>
-                <option value="">Trichy</option>
-                <option value="">Salem</option>
-            </select>
-        </div>
-        <div>
-            <label for="">Gender</label>
-            Male <input type="radio" name="gender" id="">
-            Female <input type="radio" name="gender" id="">
-        </div>
-        <div>
-            <label for="">Pin Code</label>
-            <input type="number" name="" id="">
-        </div>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>MySQL</li>
+            <li>Git</li>
+            <li>Github</li>
+        </ul>
+    </section>
 
-        <label for=""></label>
-        <input type="checkbox" name="terms" id="">
-    </form>
+    <section id="projects">
+        <h2>Certifications</h2>
+        <div class="projects">
+            <a href="#">Workshop</a>
+            <p>Participated in one day workshop on Andriod.</p>
+            <a href="#">Implant Training</a>
+            <p>Performing Implant training on Web Development.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Mothithram. All rights reserved.</p>
+        <p><a href="https://www.linkedin.com/in/mohith-ram-b8baa0251/" target="_blank">Connect on LinkedIn</a></p>
+    </footer>
+</body>
+</html>
